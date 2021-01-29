@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Museu Nacional</title>
+    <!-- estilo customizado -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- arquivo js -->
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- fim do js -->
+
+</head>
+<body>
+    <!----------------------- inicio container------------------------- -->
+    <div id="container">
+        <!-- inicio do header  -->
+        <header>
+            <div id="logo">
+                <h1><a href="http://">Museu Nacional</a></h1>
+            </div>
+
+            <!-- inicio da navegação -->
+            <nav>
+                <ul>
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">Exposição</a></li>
+                    <li><a href="http://">Pesquisa</a></li>
+                    <li><a href="http://">Acervo</a></li>
+                    <li><a href="http://">Vídeos</a></li>
+                    <li><a href="http://">Fotos</a></li>
+                    <li><a href="http://">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- fim da navegação -->
+
+        </header>
+        <!-- fim do reader -->
+
+        <!-- inicio do conteudo -->
+        <div id="principal">
+
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+
+                        <h3>video: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </article>
+
+                    <article id="mapa">
+
+                        <h3>Mapa: encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206445593997!2d-43.22871758556032!3d-22.905755043591633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-PT!2sbr!4v1593648657328!5m2!1spt-PT!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li> <a href="http://">Fóssil do Tiranossauro</a> </li>
+                            <li> <a href="http://">Obras Leonardo Da Vinci</a> </li>
+                            <li> <a href="http://">Pinturas de Lucas</a> </li>
+                            <li> <a href="http://">Esculturas de Lucas</a> </li>
+                            <li> <a href="http://">A barca</a> </li>
+                            <li> <a href="http://"><strong>Veja todos..</strong></a> </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer parecem suficientemente credíveis.
+                        </p>
+                        <a href="http://"> <strong>Leia mais...</strong></a>
+                    </article>
+
+                </section>
+            </div>
+            <!-- inicio da lateral (aside) -->
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+                <!-- inicio visita -->
+                <section id="visita">  
+                    <h4>Faça uma visista</h4>
+                    <fieldset>
+                        <label for="data">Data</label>
+                        <input class="campo" type="date" name="" id="data">
+                        <br><br>
+                        <label for="qtd">Qtd de pessoas</label>
+                        <input class="campo" style="width: 30px;" type="number" name="" id="qtd" min="1" max="15">
+                    </fieldset>
+                    <input class="botao" type="submit" value="verificar disponibilidade">
+                </section>
+                <!-- final visita -->
+
+                <section id="galeria">
+                    <h4>Glaeria de Fotos</h4>
+                    <!-- alt serve para caso a img n carregue -->
+                    <a href="http://">
+                        <img src="img/imagem1.jpg" height="93" width="93" alt="descrição  imagem">
+                    </a>
+                    <a href="http://">
+                        <img src="img/imagem2.jpg" height="93" width="93" alt="descrição  imagem">
+                    </a>
+                    <a href="http://">
+                        <img src="img/imagem3.jpg" height="93" width="93" alt="descrição  imagem">
+                    </a>
+                    <a href="http://">
+                        <img src="img/imagem4.jpg" height="93" width="93" alt="descrição  imagem">
+                    </a>
+                </section>
+
+            </aside>
+            <!-- final da lateral -->
+
+            <footer>
+                <p>
+                    <a href="http://">Home</a>
+                    <a href="http://">Exposições</a>
+                    <a href="http://">Pesquisa</a>
+                    <a href="http://">Acervo</a>
+                    <a href="http://">Vídeos</a>
+                    <a href="http://">Fotos</a>
+                    <a href="http://">Contato</a>
+
+                </p>
+                <p>
+                    2019 <a href="http://">Museu Nacional</a> - Todos os direitos reservados
+                </p>
+            </footer>
+        </div>
+        <!-- final do conteudo -->
+
+        
+    </div>
+    <!----------------------- final container------------------------- -->
+
+    
+    
+</body>
+</html>
